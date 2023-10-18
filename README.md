@@ -93,7 +93,10 @@
 <details>
 <summary>salida</summary>
 
-```
+```code
+ [develop b1b7513] añadido hola.html
+ 1 file changed, 11 insertions(+)
+ create mode 100644 hola.html
 ```
 </details>
 
@@ -118,6 +121,7 @@
 ```
 </details>
 
+8. Crea el commit con un mensaje descriptivo.
 - git add .
 <details>
 <summary>salida</summary>
@@ -136,5 +140,8 @@
  create mode 100644 adios.html
 ```
 </details>
+
+9. Sube los cambios a la rama actual.
+- git push origin main
 
 </div>
