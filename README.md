@@ -143,5 +143,70 @@
 
 9. Sube los cambios a la rama actual.
 - git push origin main
+<details>
+<summary>salida</summary>
+
+```code
+    Username for 'https://github.com': rabgonzalez
+    Password for 'https://rabgonzalez@github.com': 
+    Enumerando objetos: 13, listo.
+    Contando objetos: 100% (13/13), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (12/12), listo.
+    Escribiendo objetos: 100% (13/13), 2.10 KiB | 2.10 MiB/s, listo.
+    Total 13 (delta 5), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (5/5), done.
+    To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
+    * [new branch]      main -> main
+```
+</details>
+
+10. Lista las ramas actuales.
+- git branch
+<details>
+<summary>salida</summary>
+
+```code
+  develop
+ * main
+```
+</details>
+
+11. Realizar la mezcla en el repositorio principal.
+- git merge develop
+<details>
+<summary>salida</summary>
+
+```code
+ hola.html | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+ create mode 100644 hola.html
+```
+</details>
+
+12. Sube los cambios al repositorio a tu cuenta de Github.
+- git add .
+<details>
+<summary>salida</summary>
+
+```
+```
+</details>
+
+- git commit -m "traemos los cambios de la rama develop a la rama main"
+<details>
+<summary>salida</summary>
+
+```code
+```
+</details>
+
+- git push
+<details>
+<summary>salida</summary>
+
+```code
+```
+</details>
 
 </div>
