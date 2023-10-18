@@ -521,5 +521,50 @@ To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
 </details>
 
 - git merge develop
+<details>
+<summary>salida</summary>
+
+```code
+ Auto-fusionando README.md
+```
+</details>
+
+22. Realiza el tag con el nombre v.2. y sube los cambios.
+- git tag v.2
+<details>
+<ummary>salida</summary>
+
+```
+```
+</details>
+
+- git add .
+<details>
+<ummary>salida</summary>
+
+```
+```
+</details>
+
+- git commit -m "creado tag v.2"
+<details>
+<ummary>salida</summary>
+
+```code
+```
+</details>
+
+- git push
+<details>
+<ummary>salida</summary>
+
+```code
+```
+</details>
+
+23. Muestra todos los cambios realizados en el repositorio.
+
+
+24. Muestra todos los commits realizados.
 
 </div>
