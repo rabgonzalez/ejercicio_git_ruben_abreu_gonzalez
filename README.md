@@ -352,7 +352,8 @@ To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
 <summary>salida</summary>
 
 ```code
-
+ [main 18b708e] creado tag v.1
+ 1 file changed, 155 insertions(+)
 ```
 </details>
 
@@ -360,8 +361,25 @@ To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
 <details>
 <summary>salida</summary>
 
-```
+```code
+    Username for 'https://github.com': rabgonzalez
+    Password for 'https://rabgonzalez@github.com': 
+    Enumerando objetos: 5, listo.
+    Contando objetos: 100% (5/5), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (3/3), listo.
+    Escribiendo objetos: 100% (3/3), 2.38 KiB | 2.38 MiB/s, listo.
+    Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+    To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
+    ce8b298..18b708e  main -> main
 ```
 </details>
+
+17. Crea la __feature-2__ y muevete a esta.
+- git branch feature-2
+
+- git checkout feature-2
+
+- nano Estamos_a_punto_de_terminar.html
 
 </div>
