@@ -131,6 +131,9 @@
 <summary>salida</summary>
 
 ```code
+ [main a000351] añadido adios.html
+ 2 files changed, 109 insertions(+), 1 deletion(-)
+ create mode 100644 adios.html
 ```
 </details>
 
