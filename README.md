@@ -352,7 +352,8 @@ To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
 <summary>salida</summary>
 
 ```code
-
+ [main 18b708e] creado tag v.1
+ 1 file changed, 155 insertions(+)
 ```
 </details>
 
@@ -360,8 +361,94 @@ To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
 <details>
 <summary>salida</summary>
 
+```code
+    Username for 'https://github.com': rabgonzalez
+    Password for 'https://rabgonzalez@github.com': 
+    Enumerando objetos: 5, listo.
+    Contando objetos: 100% (5/5), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (3/3), listo.
+    Escribiendo objetos: 100% (3/3), 2.38 KiB | 2.38 MiB/s, listo.
+    Total 3 (delta 0), reusados 0 (delta 0), pack-reusados 0
+    To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
+    ce8b298..18b708e  main -> main
+```
+</details>
+
+17. Crea la feature-2 y muevete a esta
+- git branch Feature-2
+<details>
+<summary>salida</summary>
+
 ```
 ```
 </details>
+
+- git checkout Feature-2
+<details>
+<summary>salida</summary>
+
+```code
+ M	README.md
+ Cambiado a rama 'feature-2'
+```
+</details>
+
+- Crea el archivo Estamos_a_punto_de_terminar.html, con el siguiente contenido:
+- nano Estamos_a_punto_de_terminar.html
+<details>
+<summary>salida</summary>
+
+```
+```
+</details>
+
+18. Realiza el commit y sube los cambios.
+- git add .
+<details>
+<summary>salida</summary>
+
+```
+```
+</details>
+
+- git commit -m "creada rama Feature-2"
+<details>
+<summary>salida</summary>
+
+```code
+ [feature-2 aa2c345] creada rama feature-2
+ 2 files changed, 31 insertions(+), 2 deletions(-)
+ create mode 100644 Estamos_a_punto_de_terminar.html
+```
+</details>
+
+- git push origin Fueature-2
+<details>
+<summary>salida</summary>
+
+```code
+    Username for 'https://github.com': rabgonzalez
+    Password for 'https://rabgonzalez@github.com': 
+    Enumerando objetos: 6, listo.
+    Contando objetos: 100% (6/6), listo.
+    Compresión delta usando hasta 4 hilos
+    Comprimiendo objetos: 100% (4/4), listo.
+    Escribiendo objetos: 100% (4/4), 871 bytes | 871.00 KiB/s, listo.
+    Total 4 (delta 1), reusados 0 (delta 0), pack-reusados 0
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    remote: 
+    remote: Create a pull request for 'feature-2' on GitHub by visiting:
+    remote:      https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez/pull/new/feature-2
+    remote: 
+    To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
+    * [new branch]      feature-2 -> feature-2
+```
+</details>
+
+19. Muevete a la rama develop, y realiza la mezcla con la rama feature-2.
+- git checkout develop
+
+- git merge feature-2
 
 </div>
