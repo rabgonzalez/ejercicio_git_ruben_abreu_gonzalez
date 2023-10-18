@@ -448,7 +448,78 @@ To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
 
 19. Muevete a la rama develop, y realiza la mezcla con la rama feature-2.
 - git checkout develop
+<details>
+<summary>salida</summary>
+
+```code
+ Cambiado a rama 'develop'
+```
+</details>
 
 - git merge feature-2
+<details>
+<summary>salida</summary>
+
+```code
+ Actualizando b1b7513..aa2c345
+ Fast-forward
+ Estamos_a_punto_de_terminar.html |  11 ++
+ README.md                        | 348 ++++++++++++++++++++++++++++++++++++++-
+ adios.html                       |  10 ++
+ 3 files changed, 368 insertions(+), 1 deletion(-)
+ create mode 100644 Estamos_a_punto_de_terminar.html
+ create mode 100644 adios.html
+```
+</details>
+
+20. Sube los cambios de la rama develop a Github.
+- git add .
+<details>
+<summary>salida</summary>
+
+```
+```
+</details>
+
+- git commit -m "
+<details>
+<summary>salida</summary>
+
+```code
+ En la rama develop
+ nada para hacer commit, el árbol de trabajo está limpio
+```
+</details>
+
+- git push origin develop
+<details>
+<summary>salida</summary>
+
+```code
+Username for 'https://github.com': rabgonzalez
+Password for 'https://rabgonzalez@github.com': 
+Total 0 (delta 0), reusados 0 (delta 0), pack-reusados 0
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez/pull/new/develop
+remote: 
+To https://github.com/rabgonzalez/ejercicio_git_ruben_abreu_gonzalez
+ * [new branch]      develop -> develop
+```
+</details>
+
+21. Cambia a la rama principal, realiza la mezcla con la rama develop.
+- git checkout main
+<details>
+<summary>salida</summary>
+
+```code
+ Cambiado a rama 'main'
+ Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales) 
+```
+</details>
+
+- git merge develop
 
 </div>
